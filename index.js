@@ -4,17 +4,21 @@ function clearLists(){
   document.getElementById('ingredients_eng_preview').innerHTML = '';
 }
 
-
-// Change caption part count
-function postCount(){
-  console.log("Post Count ADDING");
-  // TODO:  Retrieve post count
-  var postCount = 20;
-  var line = `Homemade Food Part: ${postCount}`;
-  //add line to div
-  document.getElementById('post_count').innerHTML = (line);
-
+function getPostNumber(){
+  // TODO: Retreive Data from instagram
+  return 20;
 }
+
+// A $( document ).ready() block.
+$( document ).ready(function() {
+  // Retrieve post number from instagram account
+  var postCount = getPostNumber();
+  var line = `Homemade Food Part: ${postCount}`;
+  document.getElementById('post_count_preview').innerHTML = (line);
+  console.log("Ready")
+});
+
+
 // Add Food dish name
 $(document).on("keyup","#food_name_input",function() {
    // Keep checking input value until it matches one in list
@@ -49,7 +53,6 @@ $(document).on("keyup","#ingredients_jpn_input",function(e) {
        ind++;
      }
    }
-   // document.getElementById('ingredients_jpn_preview').innerHTML = (inputValue);
    console.log(key);
    console.log(inputValue);
 })
@@ -60,6 +63,8 @@ $(document).on("keyup","#ingredients_eng_input",function(e) {
    // Keep checking input value until it matches one in list
    var key = e.keyCode; //To check when user clicks enter/delete
    var inputValue = $("#ingredients_eng_input").val();
+   console.log("herr")
+   console.log(inputValue)
    document.getElementById("ingredients_jpn_input").innerHTML = inputValue;
 
    if (key == 13 || key == 8) {
@@ -79,7 +84,6 @@ $(document).on("keyup","#ingredients_eng_input",function(e) {
        ind++;
      }
    }
-   // document.getElementById('ingredients_jpn_preview').innerHTML = (inputValue);
    console.log(key);
    console.log(inputValue);
 })
