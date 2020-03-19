@@ -112,11 +112,3 @@ $(document).on("keyup","#recipe_eng_input",function(e) {
    console.log(key);
    console.log(inputValue);
 })
-
-//Generate button click
-$(document).on("click","#generate_button",function(){
-  console.log("Generate Clicked");
-  // Run functions to generate form
-  postCount();
-  dishName();
-})
