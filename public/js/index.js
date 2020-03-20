@@ -1,5 +1,6 @@
+
 $( document ).ready(function() {
-  
+
 });
 
 
@@ -34,6 +35,8 @@ $(document).on("keyup","#ingredients_jpn_input",function(e) {
      while(ind < list.length-1) {
        document.getElementById('ingredients_jpn_preview').innerHTML += `<li>${list[ind]}</li>`;
        // TODO: Also add english translation
+
+
        document.getElementById('ingredients_eng_preview').innerHTML += `<li>${list[ind]}</li>`;
        ind++;
      }
@@ -65,6 +68,7 @@ $(document).on("keyup","#ingredients_eng_input",function(e) {
      while(ind < list.length-1) {
        document.getElementById('ingredients_eng_preview').innerHTML += `<li>${list[ind]}</li>`;
        // TODO: Also add Japanese translation
+       translateText(list[ind],'jpn');
        document.getElementById('ingredients_jpn_preview').innerHTML += `<li>${list[ind]}</li>`;
        ind++;
      }
