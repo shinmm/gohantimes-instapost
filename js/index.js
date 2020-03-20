@@ -1,21 +1,5 @@
-//Helper functions
-function clearLists(){
-  document.getElementById('ingredients_jpn_preview').innerHTML = '';
-  document.getElementById('ingredients_eng_preview').innerHTML = '';
-}
-
-function getPostNumber(){
-  // TODO: Retreive Data from instagram
-  return 20;
-}
-
-// A $( document ).ready() block.
 $( document ).ready(function() {
-  // Retrieve post number from instagram account
-  var postCount = getPostNumber();
-  var line = `Homemade Food Part: ${postCount}`;
-  document.getElementById('post_count_preview').innerHTML = (line);
-  console.log("Ready")
+  
 });
 
 
@@ -36,6 +20,7 @@ $(document).on("keyup","#ingredients_jpn_input",function(e) {
    var inputValue = $("#ingredients_jpn_input").val();
    document.getElementById("ingredients_eng_input").innerHTML = inputValue;
 
+   //Key = 8(delete key) 13(enterkey)
    if (key == 13 || key == 8) {
      console.log("Enter clicked");
      //split on new line, for every element, make bullet point,

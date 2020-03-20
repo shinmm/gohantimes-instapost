@@ -16,3 +16,12 @@ textarea {
   width: 100%;
   height: 150px;
 }
+
+.image-container {
+  width: 100%;
+}
+
+.profile-pic {
+  display: block;
+  margin: auto;
+}
