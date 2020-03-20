@@ -1,0 +1,25 @@
+{
+  "name": "gohantimes-instapost",
+  "version": "1.0.0",
+  "description": "Lately I've been posting my cooking on Instagram quite frequently, and I usually use the same format for all of my post captions. Of course, repetitive tasks call for solutions solved by programming.  Here is the link to my Instagram",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinmm/gohantimes-instapost.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinmm/gohantimes-instapost/issues"
+  },
+  "homepage": "https://github.com/shinmm/gohantimes-instapost#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
