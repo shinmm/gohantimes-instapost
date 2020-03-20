@@ -4,7 +4,10 @@
     <meta charset="utf-8">
     <!-- Link JS Files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="js/helper.js"></script>
+    <script type="text/javascript" src="js/instagram_data.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- Latest compiled JavaScript -->
@@ -16,9 +19,9 @@
   </head>
   <body>
     <h1 class="title">GohantimeAdventures Caption Generator</h1>
-
-    <button type="button" class="btn btn-primary btn-lg" id="generate_button">Generate</button>
-
+    <div class="image-container">
+      <img src="" alt="LOGO" class="profile-pic">
+    </div>
     <div class="row">
       <div class="column" style="background-color:#aaa;">
         <div class="data_entry">
@@ -34,15 +37,14 @@
 
           <label for="recipe_eng_input">Recipe/Notes : </label>
           <textarea type="text" id="recipe_eng_input" name="recipe_eng_input"></textarea>
-
-
         </div>
       </div>
 
       <div class="column" style="background-color:#bbb;">
         <div class="output_preview">
-          <div id="post_count_preview"></div>
+          <div id="post_count_preview">Homemade Food Part: <span id="post_num"></span></div>
           <div id="food_name_preview"></div><br>
+
           <p>材料: </p>
           <ul id="ingredients_jpn_preview"></ul><br>
 
