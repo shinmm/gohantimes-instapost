@@ -3,3 +3,5 @@ function clearLists(){
   document.getElementById('ingredients_jpn_preview').innerHTML = '';
   document.getElementById('ingredients_eng_preview').innerHTML = '';
 }
+
+const {Translate} = require('@google-cloud/translate').v2;
