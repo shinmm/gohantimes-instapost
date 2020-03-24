@@ -8,6 +8,7 @@ const port = process.env.PORT || 3000;
 
 // Set public folder as root
 app.use(express.static('public'));
+app.use(express.json());
 
 // Listen for HTTP requests on port 3000
 app.listen(port, () => {
@@ -58,4 +59,12 @@ app.get("/api/food-dictionary", function(req, res) {
 //Way to add to
 app.get("/add-food", function(req, res) {
   res.sendFile('/public/html/add_food.html', { root: __dirname });
+});
+
+//Way to add to
+app.post("/add-new-food", function(req, res) {
+  console.log("In the post request");
+  new_word = req.body;     // your JSON
+  console.log(new_word)
+   res.send("Success");    // echo the result back
 });
