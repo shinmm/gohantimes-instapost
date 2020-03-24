@@ -27,7 +27,7 @@ function translateInternally(text, id,lang){
       return (obj[inputText]);
     } else {
       //jpn
-      if (inputText === obj[inputText]){
+      if (inputText === Object.values(obj)[0]){
         return Object.keys(obj)[0];
       }
       //Translation does not exist
