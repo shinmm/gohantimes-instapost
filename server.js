@@ -66,5 +66,20 @@ app.post("/add-new-food", function(req, res) {
   console.log("In the post request");
   new_word = req.body;     // your JSON
   console.log(new_word)
-   res.send("Success");    // echo the result back
+  // Open json file with data, add new eng:jpn translation pair
+  fs.readFile('food_dictionary.json', 'utf8', function(err, data){
+    if (err){
+        console.log(err);
+    } else {
+      obj = JSON.parse(data); //Parse to object
+      obj.foodterm_translations.push(new_word); //Add new term
+      newJson = JSON.stringify(obj); //convert back to json to write
+      fs.writeFile('food_dictionary.json', newJson, 'utf8',function(err) {
+      // Callback function
+        if (err) throw err;
+        console.log('complete');
+      });
+    }
+  });
+  res.send("Success");//Success if reached
 });
