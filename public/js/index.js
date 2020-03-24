@@ -25,7 +25,10 @@ $(document).on("keyup","#ingredients_jpn_input",function(e) {
      while(ind < list.length-1) {
        document.getElementById('ingredients_jpn_preview').innerHTML += `- ${list[ind]}<br>`;
        // Add translated text to list of ingredients(ENG)
-       translateText(list[ind], 'ingredients_eng_preview', 'en');
+       // TODO: Use translations from internal dictionary first, then google translate API
+       translateInternally(list[ind], 'ingredients_eng_preview', 'en');
+
+
        ind++;
      }
    }
@@ -47,7 +50,7 @@ $(document).on("keyup","#ingredients_eng_input",function(e) {
      while(ind < list.length-1) {
        document.getElementById('ingredients_eng_preview').innerHTML += `- ${list[ind]}<br>`;
        // Add translated text to list of ingredients(ENG)
-       translateText(list[ind], 'ingredients_jpn_preview', 'jpn');
+       translateInternally(list[ind], 'ingredients_jpn_preview', 'jpn');
        ind++;
      }
    }
