@@ -4,9 +4,9 @@ $( document ).ready(function() {
   const shuffled1 = HASHTAGS_JAPANESEFOOD.sort(() => 0.5 - Math.random());
   const shuffled2 = HASHTAGS_POPULARFOOD.sort(() => 0.5 - Math.random());
   const shuffled3 = HASHTAGS_JAPANESE.sort(() => 0.5 - Math.random());
-  let selected1 = shuffled1.slice(0, 3);
-  let selected2 = shuffled2.slice(0, 9);
-  let selected3 = shuffled3.slice(0, 15);
+  let selected1 = shuffled1.slice(0, 4);
+  let selected2 = shuffled2.slice(0, 10);
+  let selected3 = shuffled3.slice(0, 16);
   generated_hashtags = selected1.concat(selected2, selected3);
 
   document.getElementById("hashtags_preview").innerHTML = generated_hashtags.join(" ");
