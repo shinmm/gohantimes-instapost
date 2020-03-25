@@ -74,3 +74,23 @@ $(document).on("keyup","#recipe_eng_input",function(e) {
      }
    }
 })
+
+// Inital comments
+$(document).on("keyup","#initial_comments",function(e) {
+   // Keep checking input value until it matches one in list
+   var key = e.keyCode; //To check when user clicks enter/delete
+   var inputValue = $("#initial_comments").val();
+   document.getElementById('initial_comments_preview').innerHTML = inputValue;
+
+   if (key == 13 || key == 8) {
+     //split on new line, for every element, make bullet point,
+     var list= inputValue.split("\n");
+     var ind = 0;
+     //Clear div for update
+     document.getElementById('initial_comments_preview').innerHTML = '';
+     while(ind < list.length-1) {
+       document.getElementById('initial_comments_preview').innerHTML += `${list[ind]}<br>`;
+       ind++;
+     }
+   }
+})
