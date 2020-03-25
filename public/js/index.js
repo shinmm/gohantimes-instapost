@@ -8,7 +8,7 @@ $( document ).ready(function() {
   let selected2 = shuffled2.slice(0, 9);
   let selected3 = shuffled3.slice(0, 15);
   generated_hashtags = selected1.concat(selected2, selected3);
-  
+
   document.getElementById("hashtags_preview").innerHTML = generated_hashtags.join(" ");
 });
 
@@ -80,7 +80,7 @@ $(document).on("keyup","#recipe_eng_input",function(e) {
      //Clear div for update
      document.getElementById('recipe_eng_preview').innerHTML = '';
      while(ind < list.length-1) {
-       document.getElementById('recipe_eng_preview').innerHTML += `- ${list[ind]}<br>`;
+       document.getElementById('recipe_eng_preview').innerHTML += `${ind+1}) ${list[ind]}<br>`;
        ind++;
      }
    }

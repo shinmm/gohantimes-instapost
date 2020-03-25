@@ -1,7 +1,7 @@
 // Instagram Data Retrieval
 // Get request for gohantimeadventures instagram page
 // Retrive profile image and posts
-const reg = /\d+/g; //regex to get number from pt##
+//const reg = /\d+/g; //regex to get number from pt##
 $.ajax({
   url:"https://www.instagram.com/gohantimeadventures/?__a=1",
   type:'get',
@@ -14,10 +14,9 @@ $.ajax({
       likes = posts[i].node.edge_liked_by.count;
       //posts_html += `<a href="https://instagramcom/p/+${9}+">: ${caption}`;
       line = caption.split("\n")[0];
-      post_num = line.split(" ")[2].match(reg);
-      console.log(post_num[0]);
+      post_num = line.split(" ")[3];
       //Set post number
-      document.getElementById('post_num').innerHTML = parseInt(post_num[0])+1;
+      document.getElementById('post_num').innerHTML = parseInt(post_num)+1;
       break;
       // posts_html += '<a href="https://instagram.com/p/'+shortcode+'">: '+caption+';
     }
