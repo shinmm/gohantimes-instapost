@@ -8,7 +8,7 @@ To start, here is the link to my Instagram, which is the main focus here.
 
 # Table of Contents
 
-- [Problem](#heading)
+- [Problem](https://github.com/shinmm/gohantimes-instapost/blob/master/README.md#problem)
 - [Solution](#heading-1)
 - [Demo]()
 - [Moving Forward]()
