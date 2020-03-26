@@ -39,9 +39,11 @@ This is an h1 heading
 ### Actual Caption Example https://www.instagram.com/p/B9zv3gWFG-t/
 #### ============ BEGIN ============
 
-Homemade food pt28&nbsp; 
+Homemade food pt28&nbsp;
+
 🍙🍙豚の角煮まん🍙🍙&nbsp;  
-コロナやばいです.\
+
+コロナやばいです.
 
 豚の角煮まだめっちゃ残ってます。
 
