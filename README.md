@@ -73,7 +73,8 @@ Mix all the dry ingredients first, then in a separate cup mix warm water and oil
 #### ============ BEGIN ============
 
 Homemade food pt[POST NUMBER]
-🍙🍙[NAME OF DISH(JPN)]🍙🍙 
+🍙🍙
+[NAME OF DISH(JPN)]🍙🍙 
 
 [COMMENT ON DISH, CURRENT EVENTS, ETC (JPN)]
 
