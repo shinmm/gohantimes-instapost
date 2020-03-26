@@ -1,4 +1,15 @@
 $( document ).ready(function() {
+  //Auto generate 30 hashtags (Instagram hashtag limit = 30)
+  //Randomly Select 30 from the 3 hashtag categories
+  const shuffled1 = HASHTAGS_JAPANESEFOOD.sort(() => 0.5 - Math.random());
+  const shuffled2 = HASHTAGS_POPULARFOOD.sort(() => 0.5 - Math.random());
+  const shuffled3 = HASHTAGS_JAPANESE.sort(() => 0.5 - Math.random());
+  let selected1 = shuffled1.slice(0, 4);
+  let selected2 = shuffled2.slice(0, 10);
+  let selected3 = shuffled3.slice(0, 16);
+  generated_hashtags = selected1.concat(selected2, selected3);
+
+  document.getElementById("hashtags_preview").innerHTML = generated_hashtags.join(" ");
 });
 
 // Add Food Dish Name
@@ -69,7 +80,7 @@ $(document).on("keyup","#recipe_eng_input",function(e) {
      //Clear div for update
      document.getElementById('recipe_eng_preview').innerHTML = '';
      while(ind < list.length-1) {
-       document.getElementById('recipe_eng_preview').innerHTML += `- ${list[ind]}<br>`;
+       document.getElementById('recipe_eng_preview').innerHTML += `${ind+1}) ${list[ind]}<br>`;
        ind++;
      }
    }
