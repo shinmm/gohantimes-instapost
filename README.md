@@ -17,12 +17,6 @@ To start, here is the link to my Instagram, which is the main focus here.
   * [General Format](#sub-sub-heading-2)
 
 
-# Heading levels
-
-> This is a fixture to test heading levels
-
-<!-- toc -->
-
 # Problem
 
 This is an h1 heading
