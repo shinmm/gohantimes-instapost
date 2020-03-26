@@ -20,17 +20,17 @@ https://www.instagram.com/gohantimeadventures/?hl=en
 
 <!-- toc -->
 
-## Problem
+# Problem
 
 This is an h1 heading
 
 
-## Solution
+# Solution
 
 This is an h1 heading
 
 
-## Caption Format
+# Caption Format
 
 
 ### Actual Caption Example https://www.instagram.com/p/B9zv3gWFG-t/
