@@ -5,9 +5,33 @@ Here is the link to my Instagram
 
 https://www.instagram.com/gohantimeadventures/?hl=en
 
-Here is the format for my Instagram posts.
-## Actual Example https://www.instagram.com/p/B9zv3gWFG-t/
+- [Problem](#heading)
+- [Solution](#heading-1)
+- [Caption Format](#heading-2)
+  * [Actual Example](#sub-heading-2)
+  * [General Format](#sub-sub-heading-2)
 
+
+# Heading levels
+
+> This is a fixture to test heading levels
+
+<!-- toc -->
+
+## Problem
+
+This is an h1 heading
+
+
+## Solution
+
+This is an h1 heading
+
+
+## Caption Format
+
+
+### Actual Caption Example https://www.instagram.com/p/B9zv3gWFG-t/
 #### ============ BEGIN ============
 
 Homemade food pt28
@@ -39,7 +63,7 @@ Mix all the dry ingredients first, then in a separate cup mix warm water and oil
 #### ============ END ============
 
 
-## General Format
+### General Format
 
 #### ============ BEGIN ============
 
