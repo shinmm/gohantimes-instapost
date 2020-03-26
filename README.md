@@ -40,7 +40,8 @@ This is an h1 heading
 #### ============ BEGIN ============
 
 Homemade food pt28
-🍙🍙豚の角煮まん🍙🍙 コロナやばいです。
+🍙🍙豚の角煮まん🍙🍙 
+コロナやばいです。
 
 豚の角煮まだめっちゃ残ってます。
 
@@ -73,8 +74,7 @@ Mix all the dry ingredients first, then in a separate cup mix warm water and oil
 #### ============ BEGIN ============
 
 Homemade food pt[POST NUMBER]
-🍙🍙
-[NAME OF DISH(JPN)]🍙🍙 
+[NAME OF DISH(JPN)]
 
 [COMMENT ON DISH, CURRENT EVENTS, ETC (JPN)]
 
