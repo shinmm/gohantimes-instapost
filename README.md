@@ -7,6 +7,8 @@ https://www.instagram.com/gohantimeadventures/?hl=en
 
 - [Problem](#heading)
 - [Solution](#heading-1)
+- [Demo]()
+- [Moving Forward]()
 - [Caption Format](#heading-2)
   * [Actual Example](#sub-heading-2)
   * [General Format](#sub-sub-heading-2)
