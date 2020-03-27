@@ -40,11 +40,11 @@ I'll list some of the things I did here to acheive this goal.
 # Demo
 COMING SOON
 
-# Moving Forward
-//TODO: Future Development
-
 # Usage
 //TODO: Usage
+
+# Moving Forward
+//TODO: Future Development
 
 # Caption Format
 
