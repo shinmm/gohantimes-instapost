@@ -8,8 +8,8 @@ To start, here is the link to my Instagram, which is the main focus here.
 
 # Table of Contents
 
-- [Problem](https://github.com/shinmm/gohantimes-instapost/blob/master/README.md#problem)
-- [Solution](#heading-1)
+- [Problem](https://github.com/shinmm/gohantimes-instapost#problem)
+- [Solution](https://github.com/shinmm/gohantimes-instapost#solution)
 - [Demo]()
 - [Moving Forward]()
 - [Caption Format](#heading-2)
@@ -18,14 +18,26 @@ To start, here is the link to my Instagram, which is the main focus here.
 
 
 # Problem
-
-This is an h1 heading
+I write captions for my instagram posts everyday, and these posts have somewhat repetitive tasks that are timeconsuming. 
+Here is a list of some of these problems:
+1. Having to check what number post the is
+1. Translating ingredients list between Japanese and English
+1. Listing the recipe notes nicely
+1. Coming up with 30 hashtags for each post
 
 
 # Solution
 
-This is an h1 heading
+My goal here was to minimize the time it would take me to write a post's captions, while learning more JS along the way.
+I'll list some of the things I did here to acheive this goal.
+1. AJAX request to detect what the next post number should be
+1. Using an Internal dictionary and the Google Translate API to automatically translate ingredients list
+1. Format the content nicely so caption looks neat, for example new lines showing up properly when caption is posted.
+1. Randomly generate 30 popular hashtags(US and JPN) to add to caption
+1. Add a "copy to clipboard" functionality to quickly add caption to post
 
+# Demo
+COMING SOON
 
 # Caption Format
 
