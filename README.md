@@ -10,7 +10,8 @@ To start, here is the link to my Instagram, which is the main focus here.
 
 - [Problem](https://github.com/shinmm/gohantimes-instapost#problem)
 - [Solution](https://github.com/shinmm/gohantimes-instapost#solution)
-- [Demo]()
+- [Demo](https://github.com/shinmm/gohantimes-instapost#demo)
+- [Usage]()
 - [Moving Forward]()
 - [Caption Format](#heading-2)
   * [Actual Example](#sub-heading-2)
@@ -38,6 +39,12 @@ I'll list some of the things I did here to acheive this goal.
 
 # Demo
 COMING SOON
+
+# Moving Forward
+//TODO: Future Development
+
+# Usage
+//TODO: Usage
 
 # Caption Format
 
