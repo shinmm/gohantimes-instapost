@@ -11,11 +11,11 @@ To start, here is the link to my Instagram, which is the main focus here.
 - [Problem](https://github.com/shinmm/gohantimes-instapost#problem)
 - [Solution](https://github.com/shinmm/gohantimes-instapost#solution)
 - [Demo](https://github.com/shinmm/gohantimes-instapost#demo)
-- [Usage]()
-- [Moving Forward]()
-- [Caption Format](#heading-2)
-  * [Actual Example](#sub-heading-2)
-  * [General Format](#sub-sub-heading-2)
+- [Usage](https://github.com/shinmm/gohantimes-instapost#usage)
+- [Moving Forward](https://github.com/shinmm/gohantimes-instapost#moving-forward)
+- [Caption Format](https://github.com/shinmm/gohantimes-instapost#caption-format)
+  * [Actual Example](https://github.com/shinmm/gohantimes-instapost#actual-caption-example-httpswwwinstagramcompb9zv3gwfg-t)
+  * [General Format](https://github.com/shinmm/gohantimes-instapost#general-format)
 
 
 # Problem
