@@ -1,13 +1,13 @@
 // Instagram Data Retrieval
 // Get request for gohantimeadventures instagram page
 // Retrive profile image and posts
-function translateText(text,id, lang){
+function translateText(text,id, lang, amount){
   $.ajax({
     url:`http://localhost:3000/api/translate/${lang}/${text}`,
     type:'get',
     success:function(response){
       res = response.charAt(0).toUpperCase() + response.slice(1); // Capitalize
-      document.getElementById(`${id}`).innerHTML += `- ${res}<br>`;
+      document.getElementById(`${id}`).innerHTML += `- ${res} (${amount})<br>`;
     }
   });
 }
@@ -16,12 +16,11 @@ function translateText(text,id, lang){
 // Word Data Retrieval from internal Translation
 // Get request for gohantimeadventures instagram page
 // Retrive profile image and posts
-function translateInternally(text, id,lang){
+function translateInternally(text, id,lang, amount){
   // Function checks to see if translation exists, and returns translation
   // If en, search keys, if jpn search values
   function findMatch(inputText, obj){
-    console.log(inputText);
-    if (obj.hasOwnProperty(inputText)){
+    if (inputText === Object.keys(obj)[0]){
       // Translation exists in interanal db
       result = true;
       return (obj[inputText]);
@@ -48,15 +47,14 @@ function translateInternally(text, id,lang){
           //no match, translate with google api
           //translateText(text,id,lang)
         } else {
-          console.log(`key is ${key} value is ${match}`);
           res = match.charAt(0).toUpperCase() + match.slice(1); // Capitalize
-          document.getElementById(`${id}`).innerHTML += `- ${res}<br>`;
+          document.getElementById(`${id}`).innerHTML += `- ${res} (${amount})<br>`;
           no_match = false;
         }
       }
       if (no_match) {
         //no match, translate with google api
-        translateText(text,id,lang)
+        translateText(text,id,lang, amount)
       }
     }
   });
