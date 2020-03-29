@@ -42,7 +42,7 @@ function translateInternally(text, id,lang, amount){
       var obj = response.foodterm_translations;
       var no_match = true;
       for (var key in obj) {
-        var match = findMatch(text,obj[key]);
+        var match = findMatch(text.toLowerCase(),obj[key]);
         if (match === ''){
           //no match, translate with google api
           //translateText(text,id,lang)

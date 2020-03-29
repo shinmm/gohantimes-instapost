@@ -98,15 +98,17 @@ $(document).on("keyup","#ingredients_eng_input",function(e) {
      while(ind < list.length-1) {
        // line will contain a word and the amount next to it
        line = list[ind].split(" ");
-       word = line[0].charAt(0).toUpperCase() + line[0].slice(1); // Capitalize
        // If measurement exists
        if (line.length > 1){
-         amount = line[1];
-
+         amount = line.pop(); // last element is measurement
        }
+       word = line.join(" ");
+       console.log(word);
+       word = word[0].charAt(0).toUpperCase() + word.slice(1); // Capitalize
        document.getElementById('ingredients_eng_preview').innerHTML += `<div>- ${word} (${amount})</div>`;
        // Add translated text to list of ingredients(ENG)
-       translateInternally(line[0], 'ingredients_jpn_preview', 'jpn', amount);
+       console.log(word);
+       translateInternally(word, 'ingredients_jpn_preview', 'jpn', amount);
        ind++;
      }
    }
