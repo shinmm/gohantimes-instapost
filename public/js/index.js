@@ -96,9 +96,19 @@ $(document).on("keyup","#ingredients_eng_input",function(e) {
      clearLists();
      // Loop through split, list bullet points
      while(ind < list.length-1) {
-       document.getElementById('ingredients_eng_preview').innerHTML += `<div>- ${list[ind]}</div>`;
+       // line will contain a word and the amount next to it
+       line = list[ind].split(" ");
+       // If measurement exists
+       if (line.length > 1){
+         amount = line.pop(); // last element is measurement
+       }
+       word = line.join(" ");
+       console.log(word);
+       word = word[0].charAt(0).toUpperCase() + word.slice(1); // Capitalize
+       document.getElementById('ingredients_eng_preview').innerHTML += `<div>- ${word} (${amount})</div>`;
        // Add translated text to list of ingredients(ENG)
-       translateInternally(list[ind], 'ingredients_jpn_preview', 'jpn');
+       console.log(word);
+       translateInternally(word, 'ingredients_jpn_preview', 'jpn', amount);
        ind++;
      }
    }
