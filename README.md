@@ -48,7 +48,8 @@ COMING SOON
 //TODO: Usage
 
 # Moving Forward
-//TODO: Future Development
+This is a tool I use almost everyday, and will continue to use and enhance this tool for as long as I use instagram. I've thought about deploying this as a web app with AWS, but because this tool is too specific to my needs, I really don't think anyone could benefit from it. However, there are many things I learned while working on this project, such as using the Google Translate Api in real time and other JS related things, I will definitely use my knowledge for future projects. 
+I will continue to work on this project as time goes on, and keeping it open-sourced if for some reason people want to use snippets of code from it. This project to me was a good way to also practive git workflow as well. 
 
 # Caption Format
 
