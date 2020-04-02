@@ -118,9 +118,9 @@ Ingredients:
 ----------
 
 #### Shin Mitsuno
-Feel free to connect with me on LinkedIn 
-<a href=" https://www.linkedin.com/in/shin-mitsuno-89428613b" >
-  <img alt="Connect me on LinkedIn" src="linkedin_logo.png" width = "100" />
+Feel free to connect with me on LinkedIn <br>
+<a href="https://www.linkedin.com/in/shin-mitsuno-89428613b" >
+  <img alt="Connect me on LinkedIn" src="linkedin_logo.png" width = "150" />
 </a>
 
 Please feel free to check out my personal website : [shinmitsuno.com](shinmitsuno.com)
