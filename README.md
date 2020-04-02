@@ -1,10 +1,14 @@
 # gohantimes-instapost
 
+# Preface
+
 Lately I've been posting my cooking on Instagram quite frequently, and I usually use the same format for all of my post captions. Of course, repetitive tasks call for solutions solved by programming. Perfect way to practice development is working on a project that benefits yourself. Thanks for reading. 
 
 To start, here is the link to my Instagram, which is the main focus here.
 
 > https://www.instagram.com/gohantimeadventures/?hl=en
+
+Check the wiki for the git workflow I use [here](https://github.com/shinmm/gohantimes-instapost/wiki/Git-workflow):
 
 # Table of Contents
 
