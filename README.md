@@ -8,7 +8,7 @@ To start, here is the link to my Instagram, which is the main focus here.
 
 > https://www.instagram.com/gohantimeadventures/?hl=en
 
-Check the wiki for the git workflow I use [here](https://github.com/shinmm/gohantimes-instapost/wiki/Git-workflow):
+### Check the wiki for the git workflow I use [here](https://github.com/shinmm/gohantimes-instapost/wiki/Git-workflow):
 
 # Table of Contents
 
