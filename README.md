@@ -23,7 +23,7 @@ To start, here is the link to my Instagram, which is the main focus here.
 
 
 # Problem
-I write captions for my instagram posts everyday, and these posts have somewhat repetitive tasks that are timeconsuming. 
+I write recipe captions for my instagram posts everyday, and these posts have somewhat repetitive tasks that are time consuming. In these captions, I write comments, recipe notes, ingredients and hashtags.
 Here is a list of some of these problems:
 1. Having to check what number post the is
 1. Translating ingredients list between Japanese and English
@@ -109,3 +109,18 @@ Ingredients:
 #[POPULAR/RELEVANT HASHTAGS]
 
 #### ============ END ============
+
+
+
+
+
+### More about me
+----------
+
+#### Shin Mitsuno
+Feel free to connect with me on LinkedIn 
+<a href="www.linkedin.com/in/shin-mitsuno-89428613b">
+  <img alt="Connect me on LinkedIn" src="linkedin_logo.png" />
+</a>
+
+Please feel free to check out my personal website : [shinmitsuno.com](shinmitsuno.com)
