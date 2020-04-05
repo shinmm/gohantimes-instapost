@@ -22,12 +22,17 @@ $( document ).ready(function() {
     let value = textarea.value;
     value = value.replace(/(?:\r\n|\r|\n)/g, "\u2063\n");
     textarea.value = value;
-
-    document.body.appendChild(textarea);
-    textarea.select(); //need to select for exec
-    document.execCommand('copy');
-    document.body.removeChild(textarea);
-    alert("Copied to clipboard");
+    // Show current charater count, don't copy if over 2200 limit
+    document.getElementById('current-char-count').innerHTML = value.length
+    if (parseInt(value.length) > 2200) {
+      alert("Character count over the limit!");
+    } else {
+      document.body.appendChild(textarea);
+      textarea.select(); //need to select for exec
+      document.execCommand('copy');
+      document.body.removeChild(textarea);
+      alert("Copied to clipboard");
+    }
   });
 });
 
