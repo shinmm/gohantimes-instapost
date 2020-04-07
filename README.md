@@ -42,7 +42,7 @@ I'll list some of the things I did here to acheive this goal.
 1. Add a "copy to clipboard" functionality to quickly add caption to post
 
 # Demo
-COMING SOON
+<img src="assets/demo_gohantimescaption.gif" width="800" />
 
 # Usage
 //TODO: Usage
@@ -120,7 +120,7 @@ Ingredients:
 #### Shin Mitsuno
 Feel free to connect with me on LinkedIn <br>
 <a href="https://www.linkedin.com/in/shin-mitsuno-89428613b" >
-  <img alt="Connect me on LinkedIn" src="linkedin_logo.png" width = "150" />
+  <img alt="Connect me on LinkedIn" src="https://github.com/shinmm/gohantimes-instapost/blob/master/assets/linkedin_logo.png" width = "150" />
 </a>
 
 Please feel free to check out my personal website : [shinmitsuno.com](shinmitsuno.com)
