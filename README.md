@@ -44,8 +44,36 @@ I'll list some of the things I did here to acheive this goal.
 # Demo
 <img src="assets/demo_gohantimescaption.gif" width="800" />
 
-# Usage
-//TODO: Usage
+## Usage
+First the setup will consist of two steps : 
+#### 1) Install Node and npm
+* https://www.npmjs.com/get-npm
+
+Check that you have it properly installed with 
+```
+node -v
+npm -v
+```
+Here is my output 
+```
+--deleted-- $ node -v
+v13.8.0
+--deleted-- $ npm -v
+6.13.6
+```
+#### 2) Start local development 
+By default, npm install will install all modules listed as dependencies in package.json
+```
+git clone git@github.com:shinmm/gohantimes-instapost.git
+cd gohantimes-instapost
+npm install
+```
+TO run the server run:
+`npm start`
+In the root directory
+Go to `http://localhost:3000/` to see the "app"
+
+https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 # Moving Forward
 This is a tool I use almost everyday, and will continue to use and enhance this tool for as long as I use instagram. I've thought about deploying this as a web app with AWS, but because this tool is too specific to my needs, I really don't think anyone could benefit from it. However, there are many things I learned while working on this project, such as using the Google Translate Api in real time and other JS related things, I will definitely use my knowledge for future projects. 
