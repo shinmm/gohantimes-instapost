@@ -2,7 +2,7 @@
 
 # Preface
 
-Lately I've been posting my cooking on Instagram quite frequently, and I usually use the same format for all of my post captions. Of course, repetitive tasks call for solutions solved by programming. Perfect way to practice development is working on a project that benefits yourself. Thanks for reading. 
+Lately I've been posting my cooking on Instagram quite frequently, and I usually use the same format for all of my post captions. Of course, repetitive tasks call for solutions solved by programming. I want to try to reduce the time it takes me to write these captions. See ["Caption Format"](#caption-format) to see how what my captions look like. Perfect way to practice development is working on a project that benefits yourself. Thanks for reading. 
 
 To start, here is the link to my Instagram, which is the main focus here.
 
@@ -12,14 +12,14 @@ To start, here is the link to my Instagram, which is the main focus here.
 
 # Table of Contents
 
-- [Problem](https://github.com/shinmm/gohantimes-instapost#problem)
-- [Solution](https://github.com/shinmm/gohantimes-instapost#solution)
-- [Demo](https://github.com/shinmm/gohantimes-instapost#demo)
-- [Usage](https://github.com/shinmm/gohantimes-instapost#usage)
-- [Moving Forward](https://github.com/shinmm/gohantimes-instapost#moving-forward)
-- [Caption Format](https://github.com/shinmm/gohantimes-instapost#caption-format)
-  * [Actual Example](https://github.com/shinmm/gohantimes-instapost#actual-caption-example-httpswwwinstagramcompb9zv3gwfg-t)
-  * [General Format](https://github.com/shinmm/gohantimes-instapost#general-format)
+- [Problem](#problem)
+- [Solution](#solution)
+- [Demo](#demo)
+- [Usage](#usage)
+- [Moving Forward](#moving-forward)
+- [Caption Format](#caption-format)
+  * [Actual Example]#actual-caption-example-httpswwwinstagramcompb9zv3gwfg-t)
+  * [General Format](#general-format)
 
 
 # Problem
