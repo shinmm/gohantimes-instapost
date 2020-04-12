@@ -1,0 +1,64 @@
+<h1>This is the homepage</h1>
+
+<div id="copybutton-container"  style="text-align: center;">
+	<a id="copy-to-clipboard" class="copybutton">Copy To Clipboard</a>
+</div>
+<!-- char limit -->
+<div class="char-limit" style="font-size:23px;">
+	Character limit: <span id="current-char-count">0</span>/2200
+</div>
+<div class="row">
+	<div class="column" style="background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,191,18,1) 42%, rgba(0,212,255,1) 100%);">
+		<!-- form -->
+		<div class="form-style-5">
+			<form>
+			<fieldset>
+			<legend><span class="number">1</span> Caption Info</legend>
+			<label for="food_name_input">Enter dish name : </label>
+			<input type="text" id="food_name_input" name="food_name_input" placeholder="Dish name...">
+			<label for="initial_comments">Comments : </label>
+			<textarea type="text" id="initial_comments" name="initial_comments" placeholder="Initial comments..."></textarea>
+			</fieldset>
+			<fieldset>
+			<legend><span class="number">2</span> Ingredients Info</legend>
+			<label for="ingredients_jpn_input">Ingredients(JPN) : </label>
+			<textarea type="text" id="ingredients_jpn_input" name="ingredients_jpn_input" placeholder="Ingredients list in Japanese..."></textarea>
+
+			<label for="ingredients_eng_input">Ingredients(ENG) : </label>
+			<textarea type="text" id="ingredients_eng_input" name="ingredients_eng_input" placeholder="Ingredients list in English..."></textarea>
+
+			</fieldset>
+			<fieldset>
+			<legend><span class="number">3</span> Recipe Info</legend>
+			<label for="recipe_eng_input">Recipe/Notes : </label>
+			<textarea type="text" id="recipe_eng_input" name="recipe_eng_input" placeholder="Recipe notes..." ></textarea>
+			</fieldset>
+			</form>
+		</div>
+		<!-- end form -->
+	</div>
+
+	<div class="column" style="background-color:#bbb;">
+		<h2>Caption Preview</h2>
+		<div id="output_preview">
+			<div id="post_count_preview">Homemade Food Part: <span id="post_num"></span></div>
+			<div id="food_name_preview"></div>
+
+			<p>Initial Comments : </p>
+			<div id="initial_comments_preview"></div>
+
+			<p>材料: </p>
+			<div id="ingredients_jpn_preview"></div>
+
+			<p>Ingredients: </p>
+			<div id="ingredients_eng_preview"></div>
+
+			<p>Recipe/Notes : </p>
+			<div id="recipe_eng_preview"></div>
+
+			<p>Auto-generated Hashtags : </p>
+			<div id="hashtags_preview"></div>
+		</div>
+	</div>
+
+</div>

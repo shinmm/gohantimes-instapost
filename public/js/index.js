@@ -1,3 +1,5 @@
+// This file contains the event handlers for the homepage
+
 $( document ).ready(function() {
   //Auto generate 30 hashtags (Instagram hashtag limit = 30)
   //Randomly Select 30 from the 3 hashtag categories
