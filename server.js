@@ -86,9 +86,8 @@ app.post("/add-new-food", function(req, res) {
     res.redirect("/add-new-food");
   } else {
     // One of the fields is blank
-    console.log("Empty input")
+    res.render('addfood')
   }
-
 });
 
 
