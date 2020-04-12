@@ -18,7 +18,7 @@ To start, here is the link to my Instagram, which is the main focus here.
 - [Usage](#usage)
 - [Moving Forward](#moving-forward)
 - [Caption Format](#caption-format)
-  * [Actual Example]#actual-caption-example-httpswwwinstagramcompb9zv3gwfg-t)
+  * [Actual Example](#actual-caption-example-httpswwwinstagramcompb9zv3gwfg-t)
   * [General Format](#general-format)
 
 
