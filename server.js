@@ -63,7 +63,8 @@ app.get("/api/translate/:target_lang/:text", function(req, res) {
 //JSON for food dictionary terms for translation
 app.get("/api/food-dictionary", function(req, res) {
   // Display all translation data
-  res.json(_TRANSLATIONS);
+  translations = translationdataUtil.loadData()
+  res.json(translations);
 });
 
 //Way to add to
@@ -73,7 +74,7 @@ app.get("/add-food", function(req, res) {
 });
 
 //Way to add to
-app.post("/add-new-food", function(req, res) {
+app.post("/add-food", function(req, res) {
   console.log("In the post request");
   var body = req.body;     // your JSON
   // Transform tags and content
@@ -83,7 +84,7 @@ app.post("/add-new-food", function(req, res) {
     // Save data to Json
     _TRANSLATIONS.push(translationPair);
     translationdataUtil.saveData(_TRANSLATIONS);
-    res.redirect("/add-new-food");
+    res.redirect("/add-food");
   } else {
     // One of the fields is blank
     res.render('addfood')
